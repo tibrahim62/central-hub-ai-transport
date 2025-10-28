@@ -77,7 +77,6 @@ FETCH FIRST 5 ROWS ONLY;
 
 > Oracle syntax for vector index/parameters may differ slightly by version; consult your ADB 23ai docs if needed. Scripts here use portable defaults.
 
-```
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
 
 ---
@@ -87,10 +86,3 @@ FETCH FIRST 5 ROWS ONLY;
 Built by **Tarek I. Adam** – Oracle Cloud Certified Professional  
 as a public demonstration of practical Oracle AI Vector Search for transportation analytics.  
 [LinkedIn](https://www.linkedin.com/in/tarek-i-adam) | [GitHub](https://github.com/tibrahim62)
-
----
-This version gives **Central HUB** the same polished, structured, and branded look as your **IAGACK** and **SE HUB** projects — ensuring your GitHub portfolio has a **consistent, enterprise-grade** presentation.
-
-Would you like me to next prepare **a matching thumbnail image** (like the blue IAGACK one) specifically for *Central HUB* — with the “AI-Driven Transportation Intelligence” title?
-
-
