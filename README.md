@@ -1,22 +1,37 @@
 # Central HUB – AI-Driven Transportation Data Intelligence Platform
 
-**Author:** Tarek I. Adam — Oracle Certified Cloud Consultant (Top 10 in Race to Certification 2025)
+**Author:** Tarek I. Adam — Oracle Certified Cloud Consultant *(Top 10 in Race to Certification 2025)*  
 
-This repository demonstrates an end‑to‑end pattern for using **Oracle Autonomous Database (ADB)** with **AI Vector Search** to power semantic search over transportation operations data (shipments & incident reports). It mirrors a real enterprise scenario ("Central HUB") integrating ADB, Oracle Integration Cloud (OIC), Oracle APEX, and Oracle Analytics Cloud (OAC).
+This repository demonstrates an end-to-end pattern for using **Oracle Autonomous Database (ADB)** with **AI Vector Search** to power semantic search over transportation operations data (shipments & incident reports).  
+It mirrors a real enterprise scenario (“Central HUB”) integrating ADB, **Oracle Integration Cloud (OIC)**, **Oracle APEX**, and **Oracle Analytics Cloud (OAC)**.
+
+---
+
+## Table of Contents
+- [What this project shows](#what-this-project-shows)
+- [Architecture](#architecture-high-level)
+- [Quick Start](#quick-start)
+- [Files](#files)
+- [Example Semantic Query](#example-semantic-query)
+- [Author](#author)
+
+---
 
 ## What this project shows
-- Create ADB tables for shipments & incidents with a **VECTOR** column for embeddings
-- Load sample transport data
-- Build a vector index
-- Run **semantic similarity queries** using `VECTOR_DISTANCE(...)`
-- (Optional) Generate embeddings with Python and push them back into ADB
-- Wire an APEX page to search semantically
+- Create **ADB tables** for shipments & incidents with a **VECTOR** column for embeddings  
+- Load sample transport data  
+- Build a **vector index**  
+- Run **semantic similarity queries** using `VECTOR_DISTANCE(...)`  
+- *(Optional)* Generate embeddings with Python and push them back into ADB  
+- Wire an **APEX page** to search semantically  
 
-> This repo is **self‑contained**: you can run the SQL scripts directly in SQL Developer Web on ADB. The Python notebook is optional for generating embeddings if you prefer that route.
+> 💡 *This repo is self-contained: you can run the SQL scripts directly in SQL Developer Web on ADB.  
+The Python notebook is optional for generating embeddings if you prefer that route.*
 
 ---
 
 ## Architecture (high level)
+
 
 ```
 Data sources (OIC) → ADB (tables + VECTOR) → Vector Index → SQL queries
@@ -66,3 +81,16 @@ FETCH FIRST 5 ROWS ONLY;
 
 ## Attribution
 Built by **Tarek I. Adam** as a public demonstration of practical Oracle AI Vector Search for transportation analytics.
+
+
+```
+<p align="right"><a href="#table-of-contents">⬆️ Back to top</a></p>
+
+---
+
+## Author
+
+Built by **Tarek I. Adam** – Oracle Cloud Certified Professional  
+as a public demonstration of practical Oracle AI Vector Search for transportation analytics.  
+[LinkedIn](https://www.linkedin.com/in/tarek-i-adam) | [GitHub](https://github.com/tibrahim62)
+
