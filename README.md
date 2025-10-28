@@ -50,12 +50,12 @@ Data sources (OIC) → ADB (tables + VECTOR) → Vector Index → SQL queries
 ---
 
 ## Files
-- `schema.sql` — Create tables (shipments, incidents) and the vector index  
-- `sample_data.sql` — Seed data for shipments & incident reports  
-- `vector_update.sql` — Example `UPDATE` statements to attach embeddings  
-- `vector_query.sql` — Example semantic search queries with `VECTOR_DISTANCE(...)`  
-- `embeddings.ipynb` — Python notebook to generate embeddings and update ADB  
-- `apex/` — *(optional)* screenshots or export of a simple APEX search page
+- [`schema.sql`](schema.sql) — Create tables (shipments, incidents) and the vector index
+- [`sample_data.sql`](sample_data.sql) — Seed data for shipments & incident reports
+- [`vector_update.sql`](vector_update.sql) — Example `UPDATE` statements to attach embeddings
+- [`vector_query.sql`](vector_query.sql) — Example semantic search queries with `VECTOR_DISTANCE(...)`
+- [`embeddings.ipynb`](embeddings.ipynb) — Python notebook to generate embeddings and update ADB
+- [`apex/`](apex/) — (optional) screenshots or export of a simple APEX search page
 
 ---
 
