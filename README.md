@@ -1,5 +1,9 @@
 # Central HUB – AI-Driven Transportation Data Intelligence Platform
 
+**Tech Stack:** Oracle ADB (AI Vector Search) • SQL/PLSQL • APEX • Python (optional embeddings)
+
+**Use Cases:** Incident similarity search • Duplicate detection • Root-cause triage • Knowledge lookup
+
 **Author:** Tarek I. Adam — Oracle Certified Cloud Consultant *(Top 10 in Race to Certification 2025)*
 
 This repository demonstrates an end-to-end pattern for using **Oracle Autonomous Database (ADB)** with **AI Vector Search** to power semantic search over transportation operations data (shipments & incident reports). It mirrors a real enterprise scenario (“Central HUB”) integrating **ADB**, **Oracle Integration Cloud (OIC)**, **Oracle APEX**, and **Oracle Analytics Cloud (OAC)**.
@@ -39,6 +43,8 @@ Data sources (OIC) → ADB (tables + VECTOR) → Vector Index → SQL queries
 ---
 
 ## Quick start
+> **Prerequisites:** Oracle ADB 23ai (VECTOR/JSON enabled) and SQL Developer Web access.  
+> *(Optional)* Python 3.10+ with `oracledb`, `numpy`, and your embedding library if generating embeddings.
 1. **Create an ADB instance** (or use an existing one) and open **SQL Developer Web**.  
 2. Run `schema.sql` to create tables and the vector index.  
 3. Run `sample_data.sql` to insert sample shipments & incidents.  
@@ -48,6 +54,8 @@ Data sources (OIC) → ADB (tables + VECTOR) → Vector Index → SQL queries
    - Replace `:query_embedding` with a vector literal or a bind variable produced by your embedding function.
 
 ---
+> **Disclaimer:**  
+> For demo and educational purposes only. Example scripts use portable defaults — review and harden before production deployment.
 
 ## Files
 - [`schema.sql`](schema.sql) — Create tables (shipments, incidents) and the vector index
