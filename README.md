@@ -85,9 +85,11 @@ FETCH FIRST 5 ROWS ONLY;
 <p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
 
 ---
-
 ## Author
 
 Built by **Tarek I. Adam** – Oracle Cloud Certified Professional  
-as a public demonstration of practical Oracle AI Vector Search for transportation analytics.  
+as a public demonstration of practical Oracle analytics on Oracle Cloud.  
+**Stack:** Oracle ADB (Vector Search), PL/SQL, APEX, OAC, OIC  
 [LinkedIn](https://www.linkedin.com/in/tarek-i-adam) | [GitHub](https://github.com/tibrahim62)
+
+<p align="right"><a href="#table-of-contents">⬆ Back to top</a></p>
